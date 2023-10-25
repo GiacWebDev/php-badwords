@@ -1,5 +1,5 @@
 <?php 
-$testo = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, cum.'
+
 ?>
 
 
