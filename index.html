@@ -23,18 +23,27 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col">
-          <form action="action.php">
+          <form action="action.php" method="get">
             <div class="mb-3">
               <label for="paragraph" class="form-label"
                 >Inserisci il testo:</label
               >
-              <textarea class="form-control" id="paragraph"></textarea>
+              <textarea
+                class="form-control"
+                id="paragraph"
+                name="paragraph"
+              ></textarea>
             </div>
             <div class="mb-3">
               <label for="BadWord" class="form-label"
                 >Inserisci la BadWord:</label
               >
-              <input type="text" class="form-control" id="BadWord" />
+              <input
+                type="text"
+                class="form-control"
+                id="BadWord"
+                name="BadWord"
+              />
             </div>
             <button type="submit" class="btn btn-primary">Invia</button>
           </form>
