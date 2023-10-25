@@ -1,9 +1,9 @@
 <?php
 // Controllo se i parametri sono stati inviati tramite GET
 // isset restituisce true ad una variabile settata = se paragraph e BadWord sono stati mandati da GET allora creo variabili
-if (isset($_GET['paragraph']) && isset($_GET['BadWord'])) {
-    $paragraph = $_GET['paragraph'];
-    $BadWord = $_GET['BadWord'];
+if (isset($_POST['paragraph']) && isset($_POST['BadWord'])) {
+    $paragraph = $_POST['paragraph'];
+    $BadWord = $_POST['BadWord'];
 
     // Gestisco la censura
     $censoredParagraph = str_replace($BadWord, '***', $paragraph);
