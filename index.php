@@ -19,27 +19,7 @@ $testo = 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, cum
 </head>
 <body>
   
-<form>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col">
 
-        <div class="mb-3">
-          <label for="testo" class="form-label">Testo</label>
-          <input type="text" class="form-control" id="testo" name="testo">
-          <div id="textHelp" class="form-text">Inserisci il testo</div>
-        </div>
 
-        <div class="mb-3">
-          <label for="badword" class="form-label">Inserisci la BadWord</label>
-          <input type="text" class="form-control" id="badword" names="badword>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Invia</button>
-      </form>
-        
-      </div>
-    </div>
-  </div>
 </body>
 </html>
